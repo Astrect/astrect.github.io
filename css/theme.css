@@ -1,0 +1,74 @@
+body {
+
+background-color: #18232f !important;
+color: white;
+
+}
+
+.jumbotron {
+	background-color: #0596C2;
+	color: white;
+	margin-bottom: 0 !important;
+}
+.text-justify {
+	text-align: justify;
+}
+
+.bg-dark {
+	background-color: #0596C2 !important;
+}
+
+.card-title {
+	color: black;
+}
+.card-text {
+	color: black;
+}
+
+/**
+*Footer stuff
+**/
+footer ul {
+    margin: 0;
+    padding: 0;
+	list-style: none;
+}
+footer ul ul li {
+    display: inline-block;
+    width:100%;
+    border-bottom: solid 1px #222;
+}
+footer ul ul li:last-child {
+    border-bottom: 0;
+}
+footer ul li a {
+    display: inline-block;
+    color:#555;
+    padding: 5px 0 5px 0;
+    width:100%;
+    transition: all .2s ease-in-out;
+}
+
+footer ul li a:hover:before {
+    margin-right: 20px;
+}
+footer ul li a:hover, footer ul li a:hover:before {
+    color:#CCC;
+    text-decoration: none;
+}
+footer ul i {
+	margin-right: 5px;
+}
+footer {
+    padding: 50px 0 30px 0;
+    color:#888;
+	background-color: #111922;
+}
+footer h5 {
+    color:#CCC;
+}
+.section-copyright {
+    color:#555;
+    font-size: 12px;
+	background-color: #0a0f15;
+}
